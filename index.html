@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axile - Data Science Consulting & AI Company</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" class="logo-link">
+                    <h2>Axile</h2>
+                    <span class="logo-tagline">Data Science & AI</span>
+                </a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link active">Home</a>
+                <div class="nav-dropdown">
+                    <a href="services.html" class="nav-link">Services <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="services.html#ai-ml">AI & Machine Learning</a>
+                        <a href="services.html#data-analytics">Data Analytics</a>
+                        <a href="services.html#consulting">Consulting</a>
+                        <a href="services.html#development">Development</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="industries.html" class="nav-link">Industries <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="industries.html#agriculture">Agriculture</a>
+                        <a href="industries.html#fintech">FinTech</a>
+                        <a href="industries.html#healthcare">Healthcare</a>
+                        <a href="industries.html#retail">Retail</a>
+                    </div>
+                </div>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="contact.html" class="nav-cta">Get Started</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-elements">
+                <div class="floating-element" data-speed="2"></div>
+                <div class="floating-element" data-speed="3"></div>
+                <div class="floating-element" data-speed="1.5"></div>
+            </div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span>🚀 Big on Data Science & AI</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">Empowering Your Business with</span>
+                    <span class="title-highlight">Data Science and AI Technology</span>
+                </h1>
+                <p class="hero-subtitle">
+                    "AI is essential for companies seeking to stay competitive and agile in today's rapidly evolving market. 
+                    It not only drives operational efficiency but also unlocks data insights, enhances customer interactions, 
+                    and accelerates innovation throughout the organization."
+                </p>
+                <div class="hero-buttons">
+                    <a href="services.html" class="btn btn-primary">
+                        <span>Explore Our Services</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="contact.html" class="btn btn-secondary">
+                        <span>Start Your Project</span>
+                        <i class="fas fa-play"></i>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="10">0</div>
+                        <div class="stat-label">Years of Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="100">0</div>
+                        <div class="stat-label">Projects Delivered</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="50">0</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="ai-visualization">
+                    <div class="neural-network">
+                        <div class="node-layer">
+                            <div class="node"></div>
+                            <div class="node"></div>
+                            <div class="node"></div>
+                        </div>
+                        <div class="node-layer">
+                            <div class="node"></div>
+                            <div class="node"></div>
+                            <div class="node"></div>
+                            <div class="node"></div>
+                        </div>
+                        <div class="node-layer">
+                            <div class="node"></div>
+                            <div class="node"></div>
+                        </div>
+                    </div>
+                    <div class="data-flow">
+                        <div class="data-particle"></div>
+                        <div class="data-particle"></div>
+                        <div class="data-particle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Work With Us?</h2>
+                <p>Proven expertise and results that drive business transformation</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="benefit-number" data-target="10">0</div>
+                    <div class="benefit-text">Years of applied experience in data science, AI consulting and development.</div>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="benefit-number" data-target="100">0</div>
+                    <div class="benefit-text">Implemented projects worldwide with key clients from: USA, UK, Europe, Asia.</div>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="benefit-number" data-target="25">0</div>
+                    <div class="benefit-text">Qualified employees with master's degrees in: Applied Math, System Analytics, Computer Science.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Benefits Section -->
+    <section class="ai-benefits">
+        <div class="container">
+            <div class="section-header">
+                <h2>Beneficial Results of Artificial Intelligence in Business</h2>
+                <p>Real impact delivered through AI implementation</p>
+            </div>
+            <div class="ai-stats-grid">
+                <div class="ai-stat-card">
+                    <div class="ai-stat-visual">
+                        <div class="circular-progress" data-percentage="85">
+                            <div class="progress-circle">
+                                <div class="progress-fill"></div>
+                                <div class="progress-number">85%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ai-stat-text">of companies claim AI as a strategic business priority</div>
+                </div>
+                <div class="ai-stat-card">
+                    <div class="ai-stat-visual">
+                        <div class="circular-progress" data-percentage="67">
+                            <div class="progress-circle">
+                                <div class="progress-fill"></div>
+                                <div class="progress-number">67%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ai-stat-text">of customer service interactions were responded to by chatbots</div>
+                </div>
+                <div class="ai-stat-card">
+                    <div class="ai-stat-visual">
+                        <div class="circular-progress" data-percentage="40">
+                            <div class="progress-circle">
+                                <div class="progress-fill"></div>
+                                <div class="progress-number">40%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ai-stat-text">improved business efficiency with AI</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="mission">
+        <div class="container">
+            <div class="mission-content">
+                <h2>Our Mission is to Bring the Power of AI to Every Business</h2>
+                <p>We are a data science and analytics consulting firm delivering AI-powered solutions to companies who want to leverage data and machine learning algorithms for business value. As an artificial intelligence company, we're focused on AI and Big data software development. We help businesses innovate with AI, enrich customer insights, automate processes & be more cost-efficient.</p>
+                <div class="mission-features">
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>AI-Powered Solutions</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Data-Driven Insights</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Process Automation</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Cost Efficiency</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Expertise</h2>
+                <p>Comprehensive data-driven solutions tailored to your organization's needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 19c-5 0-8-3-8-8s3-8 8-8 8 3 8 8-3 8-8 8z"/>
+                            <path d="M21 21l-4.35-4.35"/>
+                        </svg>
+                    </div>
+                    <h3>AI & Machine Learning</h3>
+                    <p>Advanced artificial intelligence and machine learning solutions to unlock insights from your data and automate decision-making processes.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                            <circle cx="9" cy="9" r="2"/>
+                            <path d="M21 15l-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/>
+                        </svg>
+                    </div>
+                    <h3>Database Management</h3>
+                    <p>Robust database design, optimization, and management solutions to ensure your data is secure, accessible, and efficiently organized.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                        </svg>
+                    </div>
+                    <h3>Project Management</h3>
+                    <p>Strategic project planning and execution with data-driven methodologies to ensure successful delivery of complex initiatives.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                            <polyline points="3.27,6.96 12,12.01 20.73,6.96"/>
+                            <line x1="12" y1="22.08" x2="12" y2="12"/>
+                        </svg>
+                    </div>
+                    <h3>Spatial Data Analysis</h3>
+                    <p>Geographic information systems and spatial analytics to provide location-based insights for better decision making.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                            <line x1="8" y1="21" x2="16" y2="21"/>
+                            <line x1="12" y1="17" x2="12" y2="21"/>
+                        </svg>
+                    </div>
+                    <h3>Big Data Analysis</h3>
+                    <p>Scalable big data processing and analytics solutions to handle large volumes of data and extract meaningful patterns.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16 18 22 12 16 6"/>
+                            <polyline points="8 6 2 12 8 18"/>
+                        </svg>
+                    </div>
+                    <h3>Software Development</h3>
+                    <p>Custom software and system development to create tailored solutions that integrate seamlessly with your existing infrastructure.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries Section -->
+    <section id="industries" class="industries">
+        <div class="container">
+            <div class="section-header">
+                <h2>Industries We Are Transforming</h2>
+                <p>Take a look at examples of our work and learn how our clients from different industries have benefited from our data science consulting services.</p>
+            </div>
+            <div class="industries-grid">
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3>Agriculture</h3>
+                    <p>Improve your agricultural capabilities through AI and advanced crop analytics. Our GRDC RiskWi$e project demonstrates our expertise in agricultural data systems.</p>
+                    <div class="industry-features">
+                        <span class="feature-tag">Crop Analytics</span>
+                        <span class="feature-tag">Risk Assessment</span>
+                        <span class="feature-tag">Yield Optimization</span>
+                    </div>
+                    <a href="industries.html#agriculture" class="industry-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>FinTech</h3>
+                    <p>Optimize your financial processes and improve safety and security through custom AI solutions for fraud detection and risk management.</p>
+                    <div class="industry-features">
+                        <span class="feature-tag">Fraud Detection</span>
+                        <span class="feature-tag">Risk Management</span>
+                        <span class="feature-tag">Algorithmic Trading</span>
+                    </div>
+                    <a href="industries.html#fintech" class="industry-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>Retail & E-commerce</h3>
+                    <p>The entire industry is using AI to make strategic decisions. Don't be left behind! Let our data scientists help you optimize your retail operations.</p>
+                    <div class="industry-features">
+                        <span class="feature-tag">Customer Analytics</span>
+                        <span class="feature-tag">Inventory Optimization</span>
+                        <span class="feature-tag">Recommendation Systems</span>
+                    </div>
+                    <a href="industries.html#retail" class="industry-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Healthcare</h3>
+                    <p>Reduce patient risks and analyze enormous amounts of medical data to become more productive and provide outstanding healthcare services.</p>
+                    <div class="industry-features">
+                        <span class="feature-tag">Medical Analytics</span>
+                        <span class="feature-tag">Predictive Diagnostics</span>
+                        <span class="feature-tag">Patient Care</span>
+                    </div>
+                    <a href="industries.html#healthcare" class="industry-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Logistics & Supply Chain</h3>
+                    <p>Enable greater operational efficiency by introducing disruptive logistic solutions that solve your business challenges.</p>
+                    <div class="industry-features">
+                        <span class="feature-tag">Route Optimization</span>
+                        <span class="feature-tag">Demand Forecasting</span>
+                        <span class="feature-tag">Supply Chain Analytics</span>
+                    </div>
+                    <a href="industries.html#logistics" class="industry-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Your Industry</h3>
+                    <p>From a different industry? Contact us for data science consulting to learn how our AI company can add value to your business.</p>
+                    <div class="industry-features">
+                        <span class="feature-tag">Custom Solutions</span>
+                        <span class="feature-tag">Industry Expertise</span>
+                        <span class="feature-tag">Tailored Approach</span>
+                    </div>
+                    <a href="contact.html" class="industry-link">Contact Us <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Axile</h2>
+                    <p>
+                        Axile is a specialized consulting firm dedicated to providing data-driven advisory and decision support systems. We partner with organizations, industries, and government bodies to build intelligent support systems that transform how decisions are made.
+                    </p>
+                    <p>
+                        Our team combines deep expertise in artificial intelligence, machine learning, and data analytics with practical experience in project management and system development. We've successfully delivered solutions for prestigious organizations including CSIRO and ACIAR.
+                    </p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>Projects Delivered</p>
+                        </div>
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>100%</h3>
+                            <p>Client Satisfaction</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Ready to transform your organization with data-driven solutions?</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <p>admin@axile.net</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Phone</h3>
+                        <p>+61-0415116981</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Location</h3>
+                        <p>125 Anzac Highway, Kurralta Park, SA, 5037</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Axile</h3>
+                    <p>Data-driven advisory and decision support systems for the modern world.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">AI & Machine Learning</a></li>
+                        <li><a href="#services">Database Management</a></li>
+                        <li><a href="#services">Project Management</a></li>
+                        <li><a href="#services">Spatial Data Analysis</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Axile. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
